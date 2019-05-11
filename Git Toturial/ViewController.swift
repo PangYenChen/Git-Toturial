@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     let str = "Hello world"
     
+    //呱呱呱呱
+    
     @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {

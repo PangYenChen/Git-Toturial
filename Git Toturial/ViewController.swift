@@ -12,9 +12,15 @@ class ViewController: UIViewController {
 
     let str = "Hello world"
     
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print(str)
+        
+        let mess = reverse(text: "tapped")
+        print(mess)
+        label.text = mess
     }
 
     func reverse(text: String) -> String {

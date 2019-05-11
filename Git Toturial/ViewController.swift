@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         print(str)
     }
 
+    func reverse(text: String) -> String {
+        return String(text.reversed())
+    }
 
 }
 
